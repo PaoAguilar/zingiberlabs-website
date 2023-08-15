@@ -1,0 +1,31 @@
+@use "../button.scss" as *;
+@use "../mx-media.scss" as *;
+@use "../variables.scss" as *;
+.main {
+  gap: 15px;
+  height: 100vh;
+  padding-top: 70px;
+  margin: 0;
+  background-color: $introAndEmailBG;
+  background-image: url("/BG/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+  h1,
+  p {
+    max-width: 37ch;
+  }
+  button {
+    @include button;
+    margin-top: auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(159, 36, 51, 1) 35%
+    );
+  }
+  @include lg {
+    background-image: url("/BG/bg-curvy-desktop.svg");
+  }
+}
