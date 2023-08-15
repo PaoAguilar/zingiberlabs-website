@@ -11,13 +11,12 @@ const Intro = () => (
       objectFit="contain"
       priority
     />
-    <h1 id="section1-title">
-      All your files in one secure location, accessible anywhere.
-    </h1>
+    <h1 id="section1-title">Welcome to ZingiberLabs</h1>
     <p>
-      Fylo stores all your most important files in one secure location. Access
-      them wherever you need, share and collaborate with friends family, and
-      co-workers.
+      Are you ready to embark on a journey into the future of the internet? Look
+      no further! At ZingiberLabs, we are your ultimate partner in harnessing
+      the limitless potential of Web3 and diving into the exciting realm of
+      Decentralized Applications (DApps), DeFi development and more.
     </p>
     <button type="button">Get Started</button>
   </section>

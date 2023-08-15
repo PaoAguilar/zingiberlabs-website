@@ -15,17 +15,18 @@ const Productivity: FC = () => {
         priority
       />
       <div>
-        <h1 id="productivity-title">Stay productive, wherever you are</h1>
+        <h1 id="productivity-title">Unleash the Power of Web3</h1>
         <p>
-          Never let location be an issue when accessing your files. Fylo has you
-          covered for all of your file storage needs. <br />
+          Web3 technology is redefining the digital landscape, promising greater
+          security, transparency, and user empowerment. <br />
           <br />
-          Securely share files and folders with friends, family and colleagues
-          for live collaboration. No email attachments required.
+          Our team of visionary experts is at the forefront of this revolution,
+          dedicated to crafting innovative solutions that merge cutting- edge
+          technology with user-centric design.
         </p>
         <Link href="#">
           <a>
-            See how Fylo works <Arrow />
+            See how it works <Arrow />
           </a>
         </Link>
       </div>

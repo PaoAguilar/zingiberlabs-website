@@ -30,25 +30,22 @@ export default Features;
 const elements = [
   {
     image: "/icon-access-anywhere.svg",
-    title: "Access your files, anywhere",
-    text: `The ability to use a smartphone, tablet, or
-    computer to access your account means your files follow you everywhere.`,
+    title: "Innovation",
+    text: `We thrive on challenges and live to push the boundaries of what's possible. Our solutions are as unique as your ideas.`,
   },
   {
     image: "/icon-security.svg",
-    title: "Access your files, anywhere",
-    text: `2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.`,
+    title: "User-Centric Approach",
+    text: `Our users are at the heart of everything we do. We create intuitive, engaging, and seamless experiences that keep them coming back for more.`,
   },
   {
     image: "/icon-collaboration.svg",
-    title: "Real-time collaboration",
-    text: `Securely share files and folders with friends, family and colleagues for live collaboration. No email
-    attachments required.`,
+    title: "Security",
+    text: `With our deep understanding of blockchain security principles, we ensure that your DApps and DeFi platforms are fortified against threats.`,
   },
   {
     image: "/icon-any-file.svg",
-    title: "Real-time collaboration",
-    text: `Whether you're sharing holidays photos or work
-    documents, Fylo has you covered allowing for all file types to be securely stored and shared.`,
+    title: "End-to-End Services",
+    text: `From ideation and development to deployment and maintenance, we offer comprehensive services that cover every stage of your project's lifecycle.`,
   },
 ];
