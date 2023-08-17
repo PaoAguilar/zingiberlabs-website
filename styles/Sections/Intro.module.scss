@@ -29,15 +29,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin-top: 25%;
+    margin-top: 15%;
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 75px;
   }
 
   .titleTop {
-    font-size: 3vw;
+    font-size: max(3vw,30px);
     display: block;
     margin-bottom: 0px;
     line-height: 0.5;
@@ -45,7 +45,7 @@
   }
 
   .titleBottom {
-    font-size: 3vw;
+    font-size: max(3vw,30px);
     display: block;
     margin-top: 0px;
     line-height: 0.5;
@@ -55,16 +55,14 @@
     align-self: flex-start;
     max-width: 700px;
     z-index: 2;
+    font-size: 16px;
+    max-width: 500px;
+    text-align: left;
   }
   button {
     @include button;
-    margin-top: auto;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(159, 36, 51, 1) 35%
-    );
+    margin-top: 20px;
+
   }
 
   @include md {

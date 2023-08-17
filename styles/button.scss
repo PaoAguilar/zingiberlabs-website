@@ -8,8 +8,9 @@
   font-weight: $bold;
   color: white;
   cursor: pointer;
-  background: linear-gradient(to right, $cyan, $blue);
+  background:  $red;
+  transition: background 0.3s ease;
   &:hover {
-    background: lighten($cyan, 5);
+    background: lighten($red, 15);
   }
 }

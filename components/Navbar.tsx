@@ -8,10 +8,9 @@ const Navbar = () => {
       <Link href="/">
         <a tabIndex={0} title="Go to the Homepage">
           <Image
-            objectFit="contain"
             src="/logo-white.png"
-            width={200}
-            height={54}
+            width={150}
+            height={57}
             alt="Fylo Logo"
             priority
           />

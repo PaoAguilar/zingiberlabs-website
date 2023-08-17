@@ -9,9 +9,10 @@
   gap: 10px;
   position: absolute;
   top: 0;
-  left: 0;
   font-size: 0.875rem;
   z-index: 1;
+  max-width: 1440px;
+  margin: 0 auto;
   ul {
     list-style: none;
     display: flex;
