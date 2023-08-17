@@ -6,8 +6,8 @@
   height: 100vh;
   padding-top: 70px;
   margin: 0;
-  background-color: $introAndEmailBG;
-  background-image: url("/BG/bg-curvy-mobile.svg");
+  background-color: black;
+  // background-image: url("/BG/bg-curvy-mobile.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% auto;
@@ -26,6 +26,6 @@
     );
   }
   @include lg {
-    background-image: url("/BG/bg-curvy-desktop.svg");
+    // background-image: url("/BG/bg-curvy-desktop.svg");
   }
 }
