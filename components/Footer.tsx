@@ -24,16 +24,9 @@ const Footer: FC = () => {
         <address>
           <div className={styles.flex}>
             <Icon src="location" />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
-            </p>
+            <p>Austin, Texas</p>
           </div>
           <div className={styles.wrapper}>
-            <div className={styles.flex}>
-              <Icon src="phone" />
-              <a href="tel:+1-543-123-4567">+1-543-123-4567</a>
-            </div>
             <div className={styles.flex}>
               <Icon src="email" />
               <a href="mailto:example@fylo.com">example@fylo.com</a>
@@ -97,12 +90,4 @@ const Icon: FC<{
   />
 );
 
-const links = [
-  "About Us",
-  "Jobs",
-  "Press",
-  "Blog",
-  "Contact Us",
-  "Terms",
-  "Privacy",
-];
+const links = ["About Us", "Terms"];
