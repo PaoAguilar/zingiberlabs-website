@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Slider from "react-slick";
 import Image from "next/image";
 import styles from "@styles/slider.module.scss";
 import Tilt from "react-parallax-tilt";
@@ -19,41 +20,64 @@ const TechCard = ({ tech, children }: any) => {
 };
 
 const ImageSlider = ({ images }: ImageSliderProps) => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  const nextImage = () => {
-    const newIndex = (currentImageIndex + 1) % images.length;
-    setCurrentImageIndex(newIndex);
-  };
-
-  const prevImage = () => {
-    const newIndex = (currentImageIndex - 1 + images.length) % images.length;
-    setCurrentImageIndex(newIndex);
+  const settings = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
-    <section className={styles.slider}>
+    <div style={{ padding: "25px", textAlign: "center" }}>
       <h1>Our stack</h1>
-      <div className={styles.sliderContainer}>
-        <button onClick={prevImage}>&lt;</button>
-        <div className={styles.imageWrapper}>
-          {images
-            .slice(currentImageIndex, currentImageIndex + 3)
-            .map((element, index) => (
-              <TechCard tech={element.tech} key={index}>
-                <Image
-                  src={element.image}
-                  alt={`Slide ${currentImageIndex + index}`}
-                  width={176}
-                  height={152}
-                  objectFit="contain"
-                />
-              </TechCard>
-            ))}
-        </div>
-        <button onClick={nextImage}>&gt;</button>
+      <div style={{ padding: "1rem" }}>
+        <Slider {...settings}>
+          {images.map((element, index) => (
+            <>
+              <div className={styles.imageWrapper}>
+                <TechCard tech={element.tech} key={index}>
+                  <Image
+                    src={element.image}
+                    alt={`Slide ${index}`}
+                    width={176}
+                    height={152}
+                    objectFit="contain"
+                  />
+                </TechCard>
+              </div>
+            </>
+          ))}
+        </Slider>
       </div>
-    </section>
+    </div>
   );
 };
 
