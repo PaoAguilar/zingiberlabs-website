@@ -20,7 +20,6 @@ const Home: NextPage = () => {
         {/* Just wanted to add a description, ain't gonna bother writing this out */}
         <meta name="description" content="Fylo" />
       </Head>
-      <Navbar />
       <main>
         <Intro />
         <Features />
