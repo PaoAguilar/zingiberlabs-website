@@ -17,15 +17,11 @@ const Form: FC = () => {
   return (
     <section aria-label="Early access" className={styles.wrapper}>
       <form className={styles.form} onSubmit={handleSubmit}>
-        <h1>Contact us today</h1>
+        <h1>Contact us now</h1>
         <p>
           Ready to jump into the world of Web3 and DeFi? Sign up in this contact
           form. Let&lsquo;`s embark on a journey that will change the digital
           landscape forever.
-        </p>
-        <p>
-          With ZingiberLabs, anything is possible and the possibilities are
-          limitless. Are you in?
         </p>
         <div className={styles.inputWrapper}>
           <div>

@@ -1,10 +1,12 @@
 import Footer from "@components/Footer";
 import Form from "@components/Form";
 import Navbar from "@components/Navbar";
+import AboutUs from "@components/Sections/AboutUs";
 import Features from "@components/Sections/Features";
 import Intro from "@components/Sections/Intro";
 import Productivity from "@components/Sections/Productivity";
 import Reviews from "@components/Sections/Reviews";
+import Slogan from "@components/Sections/Slogan";
 import type { NextPage } from "next";
 import Head from "next/head";
 
@@ -23,6 +25,7 @@ const Home: NextPage = () => {
         <Intro />
         <Features />
         <Productivity />
+        <AboutUs />
         <Reviews />
         <Form />
         <Footer />

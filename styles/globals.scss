@@ -31,10 +31,6 @@ a {
   font-family: "Raleway", sans-serif;
 }
 
-::selection {
-  background-color: $cyan;
-  color: black;
-}
 :root {
   font-size: 100%;
   @include lg {
@@ -48,5 +44,4 @@ section {
   gap: 20px;
   text-align: center;
   padding: 25px;
-  margin-bottom: 100px;
 }

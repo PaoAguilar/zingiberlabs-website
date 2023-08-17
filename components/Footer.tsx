@@ -7,10 +7,12 @@ import {
   IoLogoTwitter,
   IoLogoInstagram,
 } from "react-icons/io5";
+import Slogan from "./Sections/Slogan";
 
 const Footer: FC = () => {
   return (
     <footer className={styles.main}>
+      <Slogan />
       <Image
         src="/logo-white.png"
         alt="Fylo Logo"

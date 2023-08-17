@@ -2,7 +2,7 @@
 @use "variables" as *;
 .main {
   background-color: $footerBG;
-  padding: 5vw;
+  padding: 0 5vw;
   address {
     margin-bottom: 50px;
     .flex {
