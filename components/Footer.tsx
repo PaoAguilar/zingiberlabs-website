@@ -15,7 +15,7 @@ const Footer: FC = () => {
       <Slogan />
       <Image
         src="/logo-white.png"
-        alt="Fylo Logo"
+        alt="zinber-logo"
         width={176}
         height={152}
         objectFit="contain"

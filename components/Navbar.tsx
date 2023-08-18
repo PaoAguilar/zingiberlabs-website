@@ -11,7 +11,7 @@ const Navbar = () => {
             src="/logo-white.png"
             width={150}
             height={57}
-            alt="Fylo Logo"
+            alt="zingiber Logo"
             priority
           />
         </a>
