@@ -32,6 +32,7 @@
     justify-content: center;
     gap: 10px;
     margin-top: 100px;
+
     svg {
       border: 1px solid white;
       padding: 10px;
@@ -42,9 +43,14 @@
       }
     }
   }
-  nav[aria-label="Footer Navigation"] * *:hover {
-    font-weight: $bold;
+  nav[aria-label="Footer Navigation"] * {
+    transition: color 0.3s ease;
+    font-weight: 500;
+    *:hover {
+      color: darken($white, 40%);
+    }
   }
+
   @include lg {
     address .flex {
       display: flex;

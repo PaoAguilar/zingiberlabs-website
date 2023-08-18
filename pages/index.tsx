@@ -4,7 +4,6 @@ import AboutUs from "@components/Sections/AboutUs";
 import Features from "@components/Sections/Features";
 import Intro from "@components/Sections/Intro";
 import Productivity from "@components/Sections/Productivity";
-import Reviews from "@components/Sections/Reviews";
 import ImageSlider from "@components/Slider";
 import type { NextPage } from "next";
 import Head from "next/head";

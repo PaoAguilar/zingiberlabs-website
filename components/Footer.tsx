@@ -9,6 +9,8 @@ import {
 } from "react-icons/io5";
 import Slogan from "./Sections/Slogan";
 
+//
+
 const Footer: FC = () => {
   return (
     <footer className={styles.main}>
@@ -67,9 +69,9 @@ const Links: FC<{ from: number; to: number }> = ({ from, to }) => {
     <ul>
       {links.slice(from, to).map((item) => {
         return (
-          <li key={item}>
-            <Link href="#">
-              <a>{item}</a>
+          <li key={item.link}>
+            <Link href={item.link}>
+              <a>{item.name}</a>
             </Link>
           </li>
         );
@@ -90,4 +92,8 @@ const Icon: FC<{
   />
 );
 
-const links = ["About Us", "Terms"];
+const links = [
+  { name: "About Us", link: "/about-us" },
+  { name: "Terms", link: "/terms" },
+  { name: "Privacy Policy", link: "/privacy-policy" },
+];
