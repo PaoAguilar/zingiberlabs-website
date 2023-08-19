@@ -167,10 +167,11 @@ const Home: NextPage = () => {
           <p>
             Google is one of a third-party vendor on our site. It also uses
             cookies, known as DART cookies, to serve ads to our site visitors
-            based upon their visit to www.questcustom.com and other sites on the
-            internet. However, visitors may choose to decline the use of DART
-            cookies by visiting the Google ad and content network Privacy Policy
-            at the following URL – https://policies.google.com/technologies/ads.
+            based upon their visit to www.zingiberlabs.com and other sites on
+            the internet. However, visitors may choose to decline the use of
+            DART cookies by visiting the Google ad and content network Privacy
+            Policy at the following URL –
+            https://policies.google.com/technologies/ads.
           </p>
 
           <h2>Advertising Partners Privacy Policies</h2>
