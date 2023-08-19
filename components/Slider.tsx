@@ -57,7 +57,7 @@ const ImageSlider = ({ images }: ImageSliderProps) => {
 
   return (
     <div style={{ padding: "25px", textAlign: "center" }}>
-      <h1>Our stack</h1>
+      <h1>We love to work with</h1>
       <div style={{ padding: "1rem" }}>
         <Slider {...settings}>
           {images.map((element, index) => (

@@ -26,7 +26,7 @@ const Productivity: FC = () => {
         </p>
         <Link href="#">
           <a>
-            See how it works <Arrow />
+            Contact us now <Arrow />
           </a>
         </Link>
       </div>
