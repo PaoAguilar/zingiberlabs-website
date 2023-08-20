@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import styles from "@styles/slider.module.scss";
@@ -25,7 +25,7 @@ const ImageSlider = ({ images }: ImageSliderProps) => {
     infinite: true,
     autoplay: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {
